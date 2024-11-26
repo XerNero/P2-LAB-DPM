@@ -5,10 +5,10 @@ export default function App() {
   return (
     <View style={styles.container}>
       {/* Teks di tengah layar */}
-      <Text style={styles.texttengah}>teks di tengah layar</Text>
+      <Text style={styles.textTengah}>Teks di Tengah Layar</Text>
 
       {/* Tata letak dua kotak */}
-      <View style={styles.tataletak}>
+      <View style={styles.tataLetak}>
         <View style={styles.kotak1}></View>
         <View style={styles.kotak2}></View>
       </View>
@@ -23,50 +23,50 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: "center",
     alignItems: "center",
-    backgroundColor: "#F5F5F5", // Warna latar belakang abu-abu terang
+    backgroundColor: "#D3D3D3", // Abu-abu terang
   },
 
-  texttengah: {
+  textTengah: {
     fontSize: 24,
-    color: "#0000FF",
+    color: "#1E90FF", // Biru
     fontWeight: "bold",
     textAlign: "center",
-    marginBottom: 30,
-    backgroundColor: "rgba(0, 0, 0, 0.3)", // Opsi transparansi latar belakang teks
-    padding: 10,
-    borderRadius: 10,
+    marginBottom: 20,
+    backgroundColor: "rgba(0, 0, 0, 0.1)", // Latar belakang dengan transparansi
+    padding: 12,
+    borderRadius: 8,
     overflow: "hidden",
-    fontStyle: "italic",
+    fontStyle: "italic", // Gaya font italic
   },
 
-  tataletak: {
+  tataLetak: {
     flexDirection: "row",
-    justifyContent: "space-between",
+    justifyContent: "space-evenly", // Mengatur jarak kotak merata
     alignItems: "center",
-    width: "80%",
+    width: "75%", // Mengurangi sedikit lebar
   },
 
   kotak1: {
     width: 100,
     height: 100,
-    backgroundColor: "#FF6F61",
-    borderRadius: 15,
+    backgroundColor: "#8A2BE2", // Warna ungu
+    borderRadius: 12, // Sudut yang lebih halus
     shadowColor: "#000",
-    shadowOffset: { width: 0, height: 2 },
-    shadowOpacity: 0.8,
-    shadowRadius: 5,
-    elevation: 5,
+    shadowOffset: { width: 0, height: 3 },
+    shadowOpacity: 0.7,
+    shadowRadius: 6,
+    elevation: 4,
   },
 
   kotak2: {
     width: 100,
     height: 100,
-    backgroundColor: "#50C878",
-    borderRadius: 15,
+    backgroundColor: "#FFD700", // Warna emas
+    borderRadius: 12, // Sudut yang lebih halus
     shadowColor: "#000",
-    shadowOffset: { width: 0, height: 2 },
-    shadowOpacity: 0.8,
-    shadowRadius: 5,
-    elevation: 5,
+    shadowOffset: { width: 0, height: 3 },
+    shadowOpacity: 0.7,
+    shadowRadius: 6,
+    elevation: 4,
   },
 });
