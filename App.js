@@ -23,34 +23,34 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: "center",
     alignItems: "center",
-    backgroundColor: "#D3D3D3", // Abu-abu terang
+    backgroundColor: "#D3D3D3", 
   },
 
   textTengah: {
     fontSize: 24,
-    color: "#1E90FF", // Biru
+    color: "#1E90FF", 
     fontWeight: "bold",
     textAlign: "center",
     marginBottom: 20,
-    backgroundColor: "rgba(0, 0, 0, 0.1)", // Latar belakang dengan transparansi
+    backgroundColor: "rgba(0, 0, 0, 0.1)", 
     padding: 12,
     borderRadius: 8,
     overflow: "hidden",
-    fontStyle: "italic", // Gaya font italic
+    fontStyle: "italic", 
   },
 
   tataLetak: {
     flexDirection: "row",
-    justifyContent: "space-evenly", // Mengatur jarak kotak merata
+    justifyContent: "space-evenly", 
     alignItems: "center",
-    width: "75%", // Mengurangi sedikit lebar
+    width: "75%", 
   },
 
   kotak1: {
     width: 100,
     height: 100,
-    backgroundColor: "#8A2BE2", // Warna ungu
-    borderRadius: 12, // Sudut yang lebih halus
+    backgroundColor: "#8A2BE2", 
+    borderRadius: 12, 
     shadowColor: "#000",
     shadowOffset: { width: 0, height: 3 },
     shadowOpacity: 0.7,
@@ -61,8 +61,8 @@ const styles = StyleSheet.create({
   kotak2: {
     width: 100,
     height: 100,
-    backgroundColor: "#FFD700", // Warna emas
-    borderRadius: 12, // Sudut yang lebih halus
+    backgroundColor: "#FFD700",
+    borderRadius: 12, 
     shadowColor: "#000",
     shadowOffset: { width: 0, height: 3 },
     shadowOpacity: 0.7,
